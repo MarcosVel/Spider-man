@@ -82,5 +82,31 @@ header {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 200;
+  color: #959698;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  width: 2px;
+  height: 0px;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(233, 29, 34, 0)), to(#E91D22));
+  background: linear-gradient(180deg, rgba(233, 29, 34, 0) 0%, #E91D22 100%);
+}
+
+.nav-link:hover {
+  color: #F4F7FB;
+}
+
+.nav-link:hover::after {
+  height: 40px;
 }
 /*# sourceMappingURL=styles.css.map */
