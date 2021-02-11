@@ -45,6 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
   {y: -200, opacity: 0},
   {y: 0, opacity: 1, ease: Expo.easeInOut}, '-=0.5')
   
-
+  .fromTo('.bg-lines', 7, 
+  {width: '0%', opacity: 0},
+  {width: '100%', opacity: 1, ease: Power3.easeInOut
+  }, '-=5');
 
 })
