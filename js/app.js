@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   .fromTo('.item-5', 0.7,
   {y: -50, opacity: 0},
-  {y: 0, opacity: 1, ease: Expo.easeInOut}, '-=0')
+  {y: 0, opacity: 1, ease: Expo.easeInOut}, '-=0.2')
 
   .fromTo('.item-6', 0.7,
   {y: -200, opacity: 0},

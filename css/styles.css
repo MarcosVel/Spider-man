@@ -292,6 +292,8 @@ header {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0px 16px;
+  position: relative;
+  z-index: 998;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -425,8 +427,13 @@ header {
 }
 
 .logo:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  -webkit-transform: scale(1.05) !important;
+          transform: scale(1.05) !important;
+}
+
+.logo:hover path {
+  fill: #F02A2F;
+  stroke: #F02A2F;
 }
 
 @-webkit-keyframes logo-spiderman {

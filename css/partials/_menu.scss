@@ -7,6 +7,10 @@ header {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0px 16px;
+
+  position: relative;
+  z-index: 998;
+
   display: flex;
   justify-content: space-between;
   align-items: center;

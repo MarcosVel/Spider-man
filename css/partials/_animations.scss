@@ -9,7 +9,11 @@
   transform-origin: center center;
   transform-box: fill-box;
   &:hover{
-      transform: scale(1.05);
+      transform: scale(1.05) !important;
+      path {
+        fill: $red-light;
+        stroke: $red-light;
+      }
   }
 }
 
