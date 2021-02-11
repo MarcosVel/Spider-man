@@ -94,6 +94,10 @@ p {
           align-items: flex-start;
 }
 
+.container-item-2 {
+  padding-top: 15px;
+}
+
 .spiderman {
   width: 150%;
   -webkit-transform: translate3d(-170px, 0, 0);
